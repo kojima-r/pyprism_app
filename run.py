@@ -34,7 +34,8 @@ with colB:
     if msg:
         print(msg)
         o=pyprism.run("{}\n\nprism_main([]):-{}.".format(program,msg))
-        out=str(o.stdout.decode("utf-8"))
+        #out=str(o.stdout.decode("utf-8"))
+        out=str(o)
         
         bot_msg = remove_opening_message(out)
         message_history.append(msg+"\n"+bot_msg)
