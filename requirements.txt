@@ -1,2 +1,3 @@
--e git://github.com/prismplp/pyprism.git#egg=pyprism
+-f git+git://github.com/prismplp/pyprism.git
+
 
